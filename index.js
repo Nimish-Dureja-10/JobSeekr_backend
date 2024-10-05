@@ -8,7 +8,7 @@ import companyRoutes from "./routes/company.route.js";
 import jobRoutes from "./routes/job.route.js";
 import applicationRoutes from "./routes/application.route.js";
 
-dotenv.config({});
+dotenv.config();
 connectDB();
 
 const app = express();
